@@ -1,0 +1,10 @@
+﻿/* Lightweight content styles for the retained service/team legacy URLs. */
+.legacy-route{background:#fbfaf7;color:#17212b;min-height:65vh;padding:clamp(70px,10vw,130px) 0}
+.legacy-route .legacy-inner{max-width:860px;margin:0 auto}
+.legacy-route .eyebrow{font-size:10px;letter-spacing:.16em;font-weight:700;color:#8b6d24}
+.legacy-route h1{font:700 clamp(38px,6vw,66px)/1.08 'Manrope',sans-serif;letter-spacing:-.04em;color:#17212b;margin:17px 0 22px}
+.legacy-route h1 em{font-style:normal;color:#a27b25}
+.legacy-route p{max-width:700px;color:#5c6871;font:400 16px/1.8 'Inter',sans-serif}
+.legacy-route .legacy-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+@media(max-width:575px){.legacy-route .legacy-links{flex-direction:column;align-items:flex-start}}
+

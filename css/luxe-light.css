@@ -1,0 +1,380 @@
+﻿/* MOS Solar Â· warm, premium light finish */
+:root{--navy:#253447;--charcoal:#35414a;--gold:#c7a34b;--green:#709b68;--ink:#28343d;--muted:#68747d;--cream:#f6f4ee;--line:rgba(40,52,61,.12);--primary:#c7a34b;--dark:#253447;--light:#f6f4ee}
+body.mos-home{background:#fbfaf7;color:#28343d}
+body.mos-home .announcement-bar{background:#f0eee8;color:#53606a;border-bottom:1px solid #e4e1d8}
+body.mos-home .announcement-inner a,body.mos-home .announcement-inner span{color:#53606a}
+body.mos-home .announcement-inner i{color:#9b7b34}
+body.mos-home .mos-nav{background:rgba(251,250,247,.96);border-bottom:1px solid rgba(40,52,61,.1);box-shadow:0 8px 28px rgba(34,44,53,.045)}
+body.mos-home .mos-nav .navbar-brand{color:#263544}
+body.mos-home .mos-nav .mos-brand{gap:0;padding:0;line-height:1}
+body.mos-home .mos-nav .mos-brand .brand-logo{display:block;width:auto;height:57px;max-width:135px;object-fit:contain}
+body.mos-home .footer-brand .mos-brand{display:inline-flex;align-items:center;gap:0;padding:0;line-height:1}
+body.mos-home .footer-brand .mos-brand .brand-logo{display:block;width:auto;height:75px;max-width:165px;object-fit:contain}
+body.mos-home .mos-brand .brand-mark{background:#e8d9b0;color:#263544}
+body.mos-home .mos-brand b{color:#98762d}
+body.mos-home .mos-brand small{color:#77818a}
+body.mos-home .mos-nav .nav-link{color:#37434d!important}
+body.mos-home .mos-nav .nav-link:hover,body.mos-home .mos-nav .nav-link.active{color:#9c792e!important}
+body.mos-home .mos-nav .navbar-toggler{border-color:#c7c3b8}
+body.mos-home .mos-nav .navbar-toggler-icon{filter:none}
+body.mos-home .btn-gold{background:#d9bd73;border-color:#d9bd73;color:#263544;box-shadow:0 5px 15px rgba(119,91,31,.1)}
+body.mos-home .btn-gold:hover{background:#c6a451;border-color:#c6a451;color:#fff}
+body.mos-home .section-dark,body.mos-home .why-about,body.mos-home .mission-section,body.mos-home .team-intro-section,body.mos-home .category-overview,body.mos-home .quality-section,body.mos-home .case-study-section,body.mos-home .service-support,body.mos-home .benefits-section,body.mos-home .scheme-section,body.mos-home .documents-section,body.mos-home .savings-explainer,body.mos-home .official-sources,body.mos-home .subsidy-cta,body.mos-home .newsletter-section,body.mos-home .blog-detail-cta,body.mos-home .monthly-section,body.mos-home .calculator-cta,body.mos-home .inspection-section,body.mos-home .social-section{background:#f1efe8!important;color:#28343d!important}
+body.mos-home .section-dark p,body.mos-home .why-about p,body.mos-home .mission-section p,body.mos-home .team-intro-section p,body.mos-home .category-overview p,body.mos-home .quality-section p,body.mos-home .case-study-section p,body.mos-home .service-support p,body.mos-home .benefits-section p,body.mos-home .scheme-section p,body.mos-home .documents-section p,body.mos-home .savings-explainer p,body.mos-home .official-sources p,body.mos-home .subsidy-cta p,body.mos-home .newsletter-section p,body.mos-home .blog-detail-cta p,body.mos-home .monthly-section p,body.mos-home .calculator-cta p,body.mos-home .inspection-section p,body.mos-home .social-section p{color:#66727b!important}
+body.mos-home .section-dark h1,body.mos-home .section-dark h2,body.mos-home .section-dark h3,body.mos-home .section-dark h4{color:#263544}
+body.mos-home .light-heading h2,body.mos-home .mission-heading h2,body.mos-home .team-intro-section h2,body.mos-home .category-overview h2,body.mos-home .quality-section h2,body.mos-home .case-study-section h2,body.mos-home .service-support h2,body.mos-home .benefits-section h2,body.mos-home .scheme-section h2,body.mos-home .documents-section h2,body.mos-home .savings-explainer h2,body.mos-home .official-sources h2,body.mos-home .subsidy-cta h2,body.mos-home .newsletter-section h2,body.mos-home .blog-detail-cta h2,body.mos-home .monthly-section h2,body.mos-home .calculator-cta h2,body.mos-home .inspection-section h2,body.mos-home .social-section h2{color:#263544!important}
+body.mos-home .solution-grid,body.mos-home .why-about-grid,body.mos-home .benefit-grid{background:rgba(40,52,61,.1);border-color:rgba(40,52,61,.1)}
+body.mos-home .solution-card,body.mos-home .why-about-card,body.mos-home .benefit-card{background:#fbfaf7;border-color:rgba(40,52,61,.1)}
+body.mos-home .solution-card:hover,body.mos-home .why-about-card:hover,body.mos-home .benefit-card:hover{background:#fff}
+body.mos-home .solution-card h3,body.mos-home .why-about-card h3,body.mos-home .benefit-card h3{color:#283744}
+body.mos-home .solution-card p,body.mos-home .why-about-card p,body.mos-home .benefit-card p{color:#68747d}
+body.mos-home .comparison-dark{background:#ede9de;color:#28343d}
+body.mos-home .comparison-dark h3,body.mos-home .comparison-dark .text-link{color:#28343d}
+body.mos-home .comparison-dark p,body.mos-home .comparison-dark li{color:#65717a}
+body.mos-home .comparison-dark .comparison-icon{background:#e4d8b8;color:#8b6c28}
+body.mos-home .calculator-panel{background:#f1efe8;color:#28343d;border:1px solid rgba(40,52,61,.08)}
+body.mos-home .calculator-copy h2{color:#263544}
+body.mos-home .calculator-copy p,body.mos-home .calc-note{color:#66727b}
+body.mos-home .calculator-form{background:#fff;color:#28343d}
+body.mos-home .subsidy-section{background:#e9e5da}
+body.mos-home .subsidy-inner{color:#28343d}
+body.mos-home .subsidy-inner h2{color:#263544}
+body.mos-home .subsidy-inner p{color:#66727b}
+body.mos-home .subsidy-icon{border-color:#c7a34b;color:#9c792e}
+body.mos-home .mos-footer{background:#e9e6dd;color:#28343d;border-top:1px solid #dedacf}
+body.mos-home .footer-main h3{color:#263544}
+body.mos-home .footer-brand p,body.mos-home .footer-main>div:not(:first-child)>a,body.mos-home .footer-main>div:not(:first-child)>span{color:#65717a}
+body.mos-home .footer-bottom{border-color:rgba(40,52,61,.14);color:#78828a}
+body.mos-home .footer-bottom a{color:#37434d}
+body.mos-home .footer-social,body.mos-home .footer-main a:hover{color:#98762d}
+body.mos-home .image-caption{background:#f7f4eb;color:#28343d;border:1px solid rgba(40,52,61,.08)}
+body.mos-home .project-stats{background:#e9e6dd;color:#28343d}
+body.mos-home .project-stats h2,body.mos-home .project-stats h3,body.mos-home .project-stats strong{color:#263544}
+body.mos-home .category-tile{background:#fbfaf7;color:#28343d;border-color:rgba(40,52,61,.12)}
+body.mos-home .category-tile:hover{background:#f2eee3}
+body.mos-home .product-table thead th,body.mos-home .system-table thead th{background:#e9e4d7;color:#263544}
+body.mos-home .expertise-card,body.mos-home .about-stats{background:#e9e6dd;color:#28343d}
+body.mos-home .expertise-card h3,body.mos-home .about-stats h3,body.mos-home .about-stats strong{color:#263544}
+body.mos-home .mission-card,body.mos-home .mission-card-featured{background:#fbfaf7;border:1px solid rgba(40,52,61,.12)}
+body.mos-home .mission-card h3{color:#283744}
+body.mos-home .mission-card p{color:#68747d}
+body.mos-home .story-image-label,body.mos-home .project-detail-badge,body.mos-home .blog-card-image>span,body.mos-home .sidebar-cta{background:#e9e4d7;color:#283744}
+body.mos-home .contact-card-icon{background:#e9e4d7;color:#98762d}
+body.mos-home .enquiry-aside,body.mos-home .consultation-contact{background:#f1efe8;color:#28343d;border:1px solid rgba(40,52,61,.1)}
+body.mos-home .enquiry-aside h3,body.mos-home .consultation-contact h3{color:#263544}
+body.mos-home .enquiry-aside>p,body.mos-home .consultation-contact a,body.mos-home .consultation-contact span{color:#66727b}
+body.mos-home .aside-contact{border-color:rgba(40,52,61,.13)}
+body.mos-home .aside-contact a{color:#34424c}
+body.mos-home .instagram-link{border-color:rgba(40,52,61,.22);color:#34424c}
+body.mos-home .filter-btn{border-color:rgba(40,52,61,.2);color:#56616a}
+body.mos-home .filter-btn.active,body.mos-home .filter-btn:hover,body.mos-home .category-filter.active,body.mos-home .category-filter:hover,body.mos-home .catalogue-filter.active,body.mos-home .catalogue-filter:hover,body.mos-home .project-filter.active,body.mos-home .project-filter:hover{background:#d9bd73;border-color:#d9bd73;color:#263544}
+body.mos-home .source-links a{border-color:rgba(40,52,61,.16);color:#34424c}
+body.mos-home .cfa-card,body.mos-home .calculator-inputs,body.mos-home .subsidy-results{box-shadow:0 22px 55px rgba(38,49,57,.07)}
+body.mos-home .inspection-cta{background:linear-gradient(100deg,rgba(242,240,233,.96),rgba(242,240,233,.9)),url('../img/quote.jpg') center/cover;color:#28343d}
+body.mos-home .inspection-inner h2{color:#263544}
+body.mos-home .inspection-inner p{color:#66727b}
+body.mos-home .solutions-cta{background:linear-gradient(100deg,rgba(242,240,233,.96),rgba(242,240,233,.9)),url('../img/img-600x400-3.jpg') center/cover}
+body.mos-home .solutions-cta h2{color:#263544}
+body.mos-home .solutions-cta p{color:#66727b}
+body.mos-home .calculator-hero,.contact-hero,.subsidy-hero,.blog-hero,.detail-hero,.about-hero,.products-hero,.projects-hero,.solutions-hero{color:#fff}
+body.mos-home .project-card:after,body.mos-home .project-preview-card:after{background:linear-gradient(transparent,rgba(20,29,37,.82))}
+body.mos-home .back-to-top{box-shadow:0 8px 22px rgba(42,48,52,.14)}
+body.mos-home .faq-question{color:#34424c}
+body.mos-home .faq-answer p{color:#68747d}
+body.mos-home .faq-list{border-color:rgba(40,52,61,.14)}
+body.mos-home .faq-item{border-color:rgba(40,52,61,.14)}
+body.mos-home .why-about-card h3,body.mos-home .mission-card h3,body.mos-home .expertise-card h3,body.mos-home .category-tile h3,body.mos-home .benefit-card h3,body.mos-home .support-copy h2,body.mos-home .documents-section h3,body.mos-home .quality-section h3{color:#283744!important}
+body.mos-home .why-about-card p,body.mos-home .mission-card p,body.mos-home .expertise-card p,body.mos-home .category-tile p,body.mos-home .benefit-card p,body.mos-home .support-copy>p,body.mos-home .support-points span,body.mos-home .documents-section small,body.mos-home .quality-section p{color:#68747d!important}
+body.mos-home .why-about-card>span,body.mos-home .mission-card-top,body.mos-home .expertise-card i,body.mos-home .category-tile i,body.mos-home .benefit-card i,body.mos-home .support-points i,body.mos-home .documents-section i{color:#9a792f!important}
+body.mos-home .document-list>div{border-color:rgba(40,52,61,.12)}
+body.mos-home .document-list .document-warning{background:#f8f1df;border-color:#e0cc94;color:#59636b}
+body.mos-home .document-list .document-warning span{color:#59636b}
+body.mos-home .category-tile{box-shadow:0 10px 30px rgba(38,49,57,.045)}
+body.mos-home .category-tile .category-icon{background:#eee8d9;color:#96752e}
+body.mos-home .page-button.active{background:#d9bd73;border-color:#d9bd73;color:#263544}
+body.mos-home .page-button{background:#fbfaf7;border-color:rgba(40,52,61,.16);color:#3c4851}
+body.mos-home .project-filter,body.mos-home .catalogue-filter{background:transparent;color:#56616a;border-color:rgba(40,52,61,.2)}
+body.mos-home .project-filter.active,body.mos-home .project-filter:hover,body.mos-home .catalogue-filter.active,body.mos-home .catalogue-filter:hover{background:#d9bd73;color:#263544;border-color:#d9bd73}
+body.mos-home .category-overview .section-heading h2,body.mos-home .quality-section h2,body.mos-home .case-study-section h2,body.mos-home .benefits-section h2{color:#263544!important}
+body.mos-home .about-stats>div{border-color:rgba(40,52,61,.14)}
+body.mos-home .team-intro-section .eyebrow{color:#98762d}
+body.mos-home .case-study-copy h2,body.mos-home .case-study-copy p,body.mos-home .case-study-steps span{color:#283744!important}
+body.mos-home .case-study-steps span b,body.mos-home .project-stats span{color:#98762d}
+body.mos-home .about-stats span,body.mos-home .about-stats small{color:#68747d}
+body.mos-home .system-table tbody th{background:#f5f3ec}
+body.mos-home .mission-card-top span{color:#98762d}
+body.mos-home .team-intro-section .team-intro-copy h2,body.mos-home .team-intro-section h3{color:#263544!important}
+body.mos-home .scheme-copy h2,body.mos-home .scheme-copy p{color:#283744!important}
+body.mos-home .scheme-source-link,body.mos-home .official-link,body.mos-home .source-links a{color:#84651f}
+body.mos-home .source-links a:hover{color:#6e531b;border-color:#c7a34b}
+body.mos-home .blog-detail-page .sidebar-cta h2,body.mos-home .blog-detail-page .sidebar-cta p{color:#283744}
+body.mos-home .newsletter-form input{border:1px solid rgba(40,52,61,.14)}
+body.mos-home .testimonial-card,body.mos-home .feature-card,body.mos-home .product-card,body.mos-home .comparison-card,body.mos-home .process-step{box-shadow:0 8px 24px rgba(38,49,57,.025)}
+body.mos-home .reveal{transition:opacity .65s ease,transform .65s ease}
+@media(prefers-reduced-motion:reduce){body.mos-home *,body.mos-home *:before,body.mos-home *:after{transition-duration:.01ms!important}}
+@media(max-width:991px){body.mos-home .mos-nav .mos-brand .brand-logo{height:53px;max-width:130px}}
+@media(max-width:575px){body.mos-home .mos-nav .mos-brand .brand-logo{height:49px;max-width:122px}body.mos-home .footer-brand .mos-brand .brand-logo{height:68px;max-width:150px}}
+
+/* Shared compact header and correctly aligned MOS Solar logo. */
+body.mos-home .mos-nav{min-height:72px;padding-top:0!important;padding-bottom:0!important}
+body.mos-home .mos-nav>.container{min-height:72px}
+body.mos-home .mos-nav .mos-brand{height:72px;display:flex;align-items:center;margin:0;padding:0}
+body.mos-home .mos-nav .mos-brand .brand-logo{width:104px;height:62px;max-width:none;object-fit:contain;object-position:left center}
+body.mos-home .mos-nav .nav-link{padding:24px 0!important}
+@media(max-width:991px){body.mos-home .mos-nav .mos-brand{height:68px}body.mos-home .mos-nav .mos-brand .brand-logo{width:100px;height:60px}body.mos-home .mos-nav .nav-link{padding:10px 0!important}}
+@media(max-width:767px){body.mos-home .mos-nav,body.mos-home .mos-nav>.container{min-height:68px}body.mos-home .mos-nav .mos-brand{height:68px}}
+
+/* Each active homepage image completes a full zoom-in and zoom-out while slides crossfade. */
+body.mos-home .hero-slide>img{animation:none}
+body.mos-home .hero-carousel .owl-item.active .hero-slide>img{animation:heroSolarCycle 6s ease-in-out infinite;will-change:transform}
+body.mos-home .hero-carousel .owl-item.animated{animation-duration:1.4s}
+@keyframes heroSolarCycle{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media(prefers-reduced-motion:reduce){body.mos-home .hero-carousel .owl-item.active .hero-slide>img{animation:none;transform:none}}
+
+/* Homepage editorial layout: quiet dividers replace repeated boxed cards. */
+body.mos-home #solutions{background:#f4f2eb!important;color:#28343d!important}
+body.mos-home #solutions .light-heading h2{color:#263544}
+body.mos-home #solutions .section-heading>p{color:#68747d}
+body.mos-home #solutions .solution-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 40px;background:transparent;border:0}
+body.mos-home #solutions .solution-card{display:grid;grid-template-columns:34px minmax(0,1fr);column-gap:13px;align-content:start;min-height:0;padding:25px 8px 24px;border:0;border-top:1px solid rgba(40,52,61,.16);background:transparent;transition:transform .25s,border-color .25s}
+body.mos-home #solutions .solution-card:before{content:'';position:absolute;top:-1px;left:8px;width:34px;height:2px;background:#b6974e;opacity:.65;transition:width .25s,opacity .25s}
+body.mos-home #solutions .solution-card:hover{background:transparent;transform:translateY(-3px);border-color:rgba(40,52,61,.16)}
+body.mos-home #solutions .solution-card:hover:before{width:58px;opacity:1}
+body.mos-home #solutions .solution-number{top:27px;right:8px;color:#9b8b65;font-size:10px}
+body.mos-home #solutions .solution-card>i{grid-column:1;grid-row:1/3;margin:0;color:#a17d2e;font-size:19px}
+body.mos-home #solutions .solution-card h3{grid-column:2;grid-row:1;margin:0 34px 8px 0;color:#283744;font-size:17px}
+body.mos-home #solutions .solution-card p{grid-column:2;grid-row:2;margin:0 0 12px;color:#68747d;font-size:12px}
+body.mos-home #solutions .solution-card>a{grid-column:2;grid-row:3;color:#8c6d27;font-size:9px}
+
+body.mos-home .why-section{background:#fff}
+body.mos-home .why-section .feature-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 42px;background:transparent;border:0}
+body.mos-home .why-section .feature-card{display:grid;grid-template-columns:28px minmax(0,1fr);column-gap:14px;align-content:start;min-height:0;padding:24px 0;border:0;border-bottom:1px solid rgba(40,52,61,.12);background:transparent;box-shadow:none!important;transition:border-color .2s}
+body.mos-home .why-section .feature-card:hover{background:transparent;transform:none;border-color:rgba(161,125,46,.55)}
+body.mos-home .why-section .feature-card>i{grid-column:1;grid-row:1/3;margin:2px 0 0;font-size:17px;color:#a17d2e}
+body.mos-home .why-section .feature-card h3{grid-column:2;grid-row:1;margin:0 0 7px;color:#283744;font-size:15px}
+body.mos-home .why-section .feature-card p{grid-column:2;grid-row:2;margin:0;color:#68747d;font-size:11px}
+
+body.mos-home .comparison-section{background:#f4f2eb}
+body.mos-home .comparison-grid{gap:0}
+body.mos-home .comparison-card{padding:24px 42px;background:transparent!important;border:0;border-top:1px solid rgba(40,52,61,.17);box-shadow:none!important}
+body.mos-home .comparison-card:first-child{padding-left:0}
+body.mos-home .comparison-card+.comparison-card{border-left:1px solid rgba(40,52,61,.15)}
+body.mos-home .comparison-card h3{color:#283744;font-size:22px}
+body.mos-home .comparison-card p,body.mos-home .comparison-card li{color:#68747d;font-size:12px}
+body.mos-home .comparison-card ul{padding-left:0;list-style:none}
+body.mos-home .comparison-card li{margin:10px 0}
+body.mos-home .comparison-card li i{color:#9b792e;margin-right:9px}
+body.mos-home .comparison-icon{width:auto;height:auto;display:block;background:transparent!important;margin:0 0 20px;color:#9b792e;font-size:19px}
+body.mos-home .comparison-card .eyebrow{color:#8b6d24}
+body.mos-home .comparison-dark .eyebrow{color:#8b6d24}
+body.mos-home .comparison-card .text-link{color:#283744}
+
+body.mos-home .process-section{background:#fff}
+body.mos-home .process-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 42px}
+body.mos-home .process-step{display:grid;grid-template-columns:28px minmax(0,1fr);column-gap:14px;align-content:start;min-height:0;padding:23px 0 25px;border:0;border-top:1px solid rgba(40,52,61,.15);background:transparent;box-shadow:none!important}
+body.mos-home .process-step>span{position:static;grid-column:1;grid-row:1/3;color:#9b792e;font:700 11px 'Manrope',sans-serif}
+body.mos-home .process-step>i{grid-column:1;grid-row:3;margin:5px 0 0;color:#a17d2e;font-size:16px}
+body.mos-home .process-step h3{grid-column:2;grid-row:1;margin:0 0 7px;color:#283744;font-size:15px}
+body.mos-home .process-step p{grid-column:2;grid-row:2;margin:0;color:#68747d;font-size:11px}
+
+body.mos-home .product-card{background:transparent;border:0;box-shadow:none!important}
+body.mos-home .product-info{padding:20px 0;border-bottom:1px solid rgba(40,52,61,.14)}
+body.mos-home .testimonial-grid{gap:32px}
+body.mos-home .testimonial-card{padding:22px 0;background:transparent;border:0;border-top:1px solid rgba(40,52,61,.16);box-shadow:none!important}
+body.mos-home .testimonial-card blockquote{font:500 15px/1.75 'Manrope',sans-serif;color:#3e4a54}
+
+@media(max-width:991px){body.mos-home #solutions .solution-grid,body.mos-home .why-section .feature-grid,body.mos-home .process-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}}
+@media(max-width:767px){body.mos-home #solutions .solution-grid,body.mos-home .why-section .feature-grid,body.mos-home .process-grid{grid-template-columns:1fr;gap:0 20px}body.mos-home .comparison-card,body.mos-home .comparison-card:first-child{padding:23px 0}body.mos-home .comparison-card+.comparison-card{border-left:0}body.mos-home .process-step>i{grid-row:2}body.mos-home .process-step p{grid-row:2;padding-top:3px}}
+
+/* Keep the premium navigation pinned below the scrolling announcement bar. */
+body.mos-home .mos-nav.sticky-top{position:sticky;top:0;z-index:1030;background:rgba(251,250,247,.84);backdrop-filter:blur(18px) saturate(145%);-webkit-backdrop-filter:blur(18px) saturate(145%);box-shadow:0 8px 28px rgba(34,44,53,.08)}
+@media(max-width:991px){body.mos-home .mos-nav .navbar-collapse{background:rgba(251,250,247,.97)}}
+
+/* Shared image-banner height across every page, with viewport-aware sizing. */
+body.mos-home .hero-section,
+body.mos-home .about-hero,
+body.mos-home .blog-hero,
+body.mos-home .detail-hero,
+body.mos-home .calculator-hero,
+body.mos-home .contact-hero,
+body.mos-home .products-hero,
+body.mos-home .projects-hero,
+body.mos-home .project-detail-hero,
+body.mos-home .quote-hero,
+body.mos-home .solutions-hero,
+body.mos-home .subsidy-hero,
+body.mos-home .res-hero,
+body.mos-home .legacy-route{height:clamp(520px,calc(100vh - 110px),900px);height:clamp(520px,calc(100svh - 110px),900px);min-height:520px}
+body.mos-home .legacy-route{display:flex;align-items:center;padding:60px 0;background:linear-gradient(90deg,rgba(15,29,43,.86),rgba(15,29,43,.42)),url('../img/carousel-2.jpg') center/cover no-repeat;color:#fff}
+body.mos-home .legacy-route h1{color:#fff}
+body.mos-home .legacy-route p{color:rgba(255,255,255,.84)}
+body.mos-home .legacy-route .btn-outline-dark{color:#fff;border-color:rgba(255,255,255,.76)}
+
+/* Fade interior page hero images into the white page body like the homepage hero. */
+body.mos-home .about-hero:after,
+body.mos-home .blog-hero:after,
+body.mos-home .detail-hero:after,
+body.mos-home .calculator-hero:after,
+body.mos-home .contact-hero:after,
+body.mos-home .products-hero:after,
+body.mos-home .projects-hero:after,
+body.mos-home .project-detail-hero:after,
+body.mos-home .quote-hero:after,
+body.mos-home .solutions-hero:after,
+body.mos-home .subsidy-hero:after,
+body.mos-home .res-hero:after,
+body.mos-home .legacy-route:after{content:"";position:absolute;z-index:2;left:0;right:0;bottom:0;height:190px;pointer-events:none;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,.08) 22%,rgba(255,255,255,.26) 48%,rgba(255,255,255,.62) 75%,rgba(255,255,255,.9) 92%,#fff 100%)}
+body.mos-home .about-hero-shade,
+body.mos-home .blog-hero-shade,
+body.mos-home .detail-hero-shade,
+body.mos-home .calculator-hero-shade,
+body.mos-home .contact-hero-shade,
+body.mos-home .products-hero-shade,
+body.mos-home .projects-hero-shade,
+body.mos-home .detail-overlay,
+body.mos-home .res-hero-shade,
+body.mos-home .quote-hero-overlay,
+body.mos-home .solutions-hero-overlay,
+body.mos-home .subsidy-hero-shade{z-index:1}
+body.mos-home .about-hero-content,
+body.mos-home .blog-hero-content,
+body.mos-home .detail-hero-content,
+body.mos-home .calculator-hero-content,
+body.mos-home .contact-hero-content,
+body.mos-home .products-hero-copy,
+body.mos-home .projects-hero-copy,
+body.mos-home .detail-copy,
+body.mos-home .quote-hero-inner,
+body.mos-home .solutions-hero-copy,
+body.mos-home .subsidy-hero-copy,
+body.mos-home .res-hero-copy,
+body.mos-home .res-hero .container,
+body.mos-home .project-detail-hero .container,
+body.mos-home .legacy-route .container{position:relative;z-index:3}
+@media(max-width:767px){body.mos-home .hero-section,body.mos-home .about-hero,body.mos-home .blog-hero,body.mos-home .detail-hero,body.mos-home .calculator-hero,body.mos-home .contact-hero,body.mos-home .products-hero,body.mos-home .projects-hero,body.mos-home .project-detail-hero,body.mos-home .quote-hero,body.mos-home .solutions-hero,body.mos-home .subsidy-hero,body.mos-home .res-hero,body.mos-home .legacy-route{height:clamp(460px,calc(100svh - 106px),720px);min-height:460px}}
+
+/* Give every Owl wrapper a definite height so the hero photo cannot collapse to content height. */
+body.mos-home .hero-section{position:relative;overflow:hidden}
+body.mos-home .hero-section .hero-carousel{position:absolute;inset:0;width:100%;height:100%}
+body.mos-home .hero-section .owl-stage-outer,body.mos-home .hero-section .owl-stage,body.mos-home .hero-section .owl-item{height:100%}
+body.mos-home .hero-section .hero-slide{position:relative;width:100%;height:100%;min-height:100%}
+body.mos-home .hero-section .hero-slide>img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover}
+
+/* Shared compact navbar sizing with a green active-link pill. */
+body.mos-home .mos-nav{min-height:72px!important;padding:0!important;background:rgba(251,250,247,.48)!important;border-bottom:1px solid rgba(40,52,61,.16);box-shadow:0 4px 16px rgba(34,44,53,.06);backdrop-filter:blur(22px) saturate(155%);-webkit-backdrop-filter:blur(22px) saturate(155%)}
+body.mos-home .mos-nav>.container{min-height:72px!important;max-width:1800px;padding-left:3.5%;padding-right:3.5%}
+body.mos-home .mos-nav .mos-brand{height:68px!important;flex:0 0 auto}
+body.mos-home .mos-nav .mos-brand .brand-logo{width:118px!important;height:64px!important;max-width:none!important;object-fit:contain;object-position:left center}
+body.mos-home .mos-nav .navbar-collapse{justify-content:flex-end}
+body.mos-home .mos-nav .navbar-nav{align-items:center;gap:0}
+body.mos-home .mos-nav .nav-link{padding:8px 12px!important;margin:0 3px!important;border-radius:18px;color:#35414a!important;font-size:13px!important;font-weight:500;letter-spacing:.01em!important;white-space:nowrap;transition:background-color .2s,color .2s}
+body.mos-home .mos-nav .nav-link:hover{color:#187b46!important;background:rgba(39,168,75,.09)}
+body.mos-home .mos-nav .nav-link.active{color:#fff!important;background:#27a84b}
+body.mos-home .mos-nav .navbar-toggler{border-color:#c7c3b8;padding:7px 10px}
+body.mos-home .mos-nav .navbar-toggler-icon{filter:none}
+@media(max-width:1399px) and (min-width:992px){body.mos-home .mos-nav>.container{padding-left:2.5%;padding-right:2.5%}body.mos-home .mos-nav .mos-brand .brand-logo{width:118px!important;height:64px!important}body.mos-home .mos-nav .nav-link{padding-left:8px!important;padding-right:8px!important;margin:0 1px!important;font-size:12px!important}}
+@media(max-width:991px){body.mos-home .mos-nav,body.mos-home .mos-nav>.container{min-height:68px!important}body.mos-home .mos-nav .mos-brand{height:64px!important}body.mos-home .mos-nav .mos-brand .brand-logo{width:112px!important;height:60px!important}body.mos-home .mos-nav .navbar-collapse{margin:0 -18px;padding:8px 18px 14px;background:rgba(251,250,247,.98)}body.mos-home .mos-nav .navbar-nav{align-items:stretch}body.mos-home .mos-nav .nav-link{padding:10px 12px!important;margin:1px 0!important;border-radius:18px;font-size:14px!important}}
+body.mos-home .mos-nav .mos-brand{margin-left:8px}
+body.mos-home .mos-nav .mos-brand .brand-logo{width:108px!important;height:58px!important}
+@media(max-width:991px){body.mos-home .mos-nav .mos-brand .brand-logo{width:104px!important;height:56px!important}}
+@media(max-width:575px){body.mos-home .mos-nav .mos-brand .brand-logo{width:100px!important;height:54px!important}}
+
+/* Randomly assigned numbered banners for interior pages; homepage carousel is excluded. */
+body.about-page .about-hero{background-image:url('../img/2.png')}
+body.blog-page .blog-hero{background-image:url('../img/2.png')}
+body.blog-detail-page .detail-hero{background-image:url('../img/9.png')}
+body.calculator-page .calculator-hero{background-image:url('../img/3.png')}
+body.contact-page .contact-hero{background-image:url('../img/7.png')}
+body.products-page .products-hero{background-image:url('../img/5.png')}
+body.projects-page .projects-hero{background-image:url('../img/8.png')}
+body.quote-page .quote-hero{background-image:url('../img/4.png')}
+body.solutions-page .solutions-hero{background-image:url('../img/6.png')}
+body.subsidy-page .subsidy-hero{background-image:url('../img/1.png')}
+body.solutions-page .detail-hero{background-image:url('../img/6.png')}
+body.solutions-page .detail-hero>img{opacity:0}
+body.solutions-page:has(.detail-hero>img[src*="img-600x400-3"]) .detail-hero{background-image:url('../img/3.png')}
+body.solutions-page:has(.detail-hero>img[src*="carousel-2"]) .detail-hero{background-image:url('../img/7.png')}
+body.solutions-page:has(.detail-hero>img[src*="img-600x400-5"]) .detail-hero{background-image:url('../img/5.png')}
+body.solutions-page:has(.detail-hero>img[src*="img-600x400-4"]) .detail-hero{background-image:url('../img/4.png')}
+body.residential-solution .res-hero{background-image:url('../img/2.png')}
+body.residential-solution .res-hero-image{opacity:0}
+body.projects-page .project-detail-hero{background-image:url('../img/10.png')}
+body.projects-page .project-detail-hero>img{opacity:0}
+body.projects-page:has(.project-detail-hero>img[src*="img-600x400-3"]) .project-detail-hero{background-image:url('../img/8.png')}
+body.projects-page:has(.project-detail-hero>img[src*="carousel-2"]) .project-detail-hero{background-image:url('../img/6.png')}
+body.projects-page:has(.project-detail-hero>img[src*="quote.jpg"]) .project-detail-hero{background-image:url('../img/1.png')}
+body.legacy-service-page .legacy-route{background:linear-gradient(90deg,rgba(14,28,43,.84),rgba(14,28,43,.52)),url('../img/9.png') center/cover no-repeat;color:#fff}
+body.legacy-team-page .legacy-route{background:linear-gradient(90deg,rgba(14,28,43,.84),rgba(14,28,43,.52)),url('../img/3.png') center/cover no-repeat;color:#fff}
+body.legacy-service-page .legacy-route h1,body.legacy-team-page .legacy-route h1{color:#fff}
+body.legacy-service-page .legacy-route h1 em,body.legacy-team-page .legacy-route h1 em{color:#d8b65f}
+body.legacy-service-page .legacy-route p,body.legacy-team-page .legacy-route p{color:#eef2f3}
+
+/* On the homepage, place the glass navbar over the hero so its blur has imagery behind it. */
+body.mos-home:not([id]) .mos-nav{margin-bottom:-72px;background:rgba(251,250,247,.28)!important;backdrop-filter:blur(22px) saturate(155%);-webkit-backdrop-filter:blur(22px) saturate(155%)}
+body.mos-home:not([id]) .hero-section{height:min(832px,calc(100vh - 48px));min-height:682px}
+@media(max-width:991px){body.mos-home:not([id]) .mos-nav{margin-bottom:-68px}body.mos-home:not([id]) .hero-section{height:758px;min-height:678px}}
+@media(max-width:767px){body.mos-home:not([id]) .hero-section{height:clamp(528px,calc(100svh - 38px),788px);min-height:528px}}
+
+/* Deep teal feature bands provide the dark section contrast used in the reference. */
+body.mos-home .about-cta,
+body.mos-home .quote-contact,
+body.mos-home .newsletter-section,
+body.mos-home .calculator-cta,
+body.mos-home .inspection-section,
+body.mos-home .products-cta,
+body.mos-home .projects-cta,
+body.mos-home .solutions-cta,
+body.mos-home .subsidy-cta,
+body.mos-home .blog-detail-cta,
+body.mos-home .res-cta{background:transparent!important;color:#f7faf8!important}
+body.mos-home .about-cta>.container,
+body.mos-home .quote-contact>.container,
+body.mos-home .newsletter-section>.container,
+body.mos-home .calculator-cta>.container,
+body.mos-home .inspection-section>.container,
+body.mos-home .products-cta>.container,
+body.mos-home .projects-cta>.container,
+body.mos-home .solutions-cta>.container,
+body.mos-home .subsidy-cta>.container,
+body.mos-home .blog-detail-cta>.container,
+body.mos-home .res-cta>.container{background:#103432;color:#f7faf8;border-radius:12px;padding:32px 36px;box-shadow:0 16px 36px rgba(12,39,37,.14);position:relative;overflow:hidden}
+body.mos-home .about-cta h2,
+body.mos-home .quote-contact h2,
+body.mos-home .newsletter-section h2,
+body.mos-home .calculator-cta h2,
+body.mos-home .inspection-section h2,
+body.mos-home .products-cta h2,
+body.mos-home .projects-cta h2,
+body.mos-home .solutions-cta h2,
+body.mos-home .subsidy-cta h2,
+body.mos-home .blog-detail-cta h2,
+body.mos-home .res-cta h2{color:#fff!important}
+body.mos-home .about-cta p,
+body.mos-home .quote-contact p,
+body.mos-home .newsletter-section p,
+body.mos-home .calculator-cta p,
+body.mos-home .inspection-section p,
+body.mos-home .products-cta p,
+body.mos-home .projects-cta p,
+body.mos-home .solutions-cta p,
+body.mos-home .subsidy-cta p,
+body.mos-home .blog-detail-cta p,
+body.mos-home .res-cta p{color:#d3e0dc!important}
+body.mos-home .about-cta h2 em,
+body.mos-home .quote-contact h2 em,
+body.mos-home .newsletter-section h2 em,
+body.mos-home .calculator-cta h2 em,
+body.mos-home .inspection-section h2 em,
+body.mos-home .products-cta h2 em,
+body.mos-home .projects-cta h2 em,
+body.mos-home .solutions-cta h2 em,
+body.mos-home .subsidy-cta h2 em,
+body.mos-home .blog-detail-cta h2 em,
+body.mos-home .res-cta h2 em{color:#8fdb9a!important}
+@media(max-width:767px){body.mos-home .about-cta>.container,body.mos-home .quote-contact>.container,body.mos-home .newsletter-section>.container,body.mos-home .calculator-cta>.container,body.mos-home .inspection-section>.container,body.mos-home .products-cta>.container,body.mos-home .projects-cta>.container,body.mos-home .solutions-cta>.container,body.mos-home .subsidy-cta>.container,body.mos-home .blog-detail-cta>.container,body.mos-home .res-cta>.container{padding:24px 21px;border-radius:10px}}
+body.mos-home:not([id]) .mos-nav{background:rgba(251,250,247,.96)!important;backdrop-filter:blur(22px) saturate(155%);-webkit-backdrop-filter:blur(22px) saturate(155%)}
+body.mos-home .mos-nav .navbar-nav .nav-link[href="contact.html"]{margin-left:12px!important;padding:9px 17px!important;border-radius:22px;background:#168447;color:#fff!important;font-size:11px!important;font-weight:700;box-shadow:0 3px 9px rgba(22,132,71,.18);transition:background-color .2s,transform .2s}
+body.mos-home .mos-nav .navbar-nav .nav-link[href="contact.html"]:hover{background:#116f3a;color:#fff!important;transform:translateY(-1px)}
+@media(max-width:991px){body.mos-home .mos-nav .navbar-nav .nav-link[href="contact.html"]{margin:6px 0 0!important;width:max-content}}
+
+
