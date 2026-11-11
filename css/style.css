@@ -395,3 +395,37 @@
 @media(max-width:767px){body.mos-home .announcement-inner{justify-content:flex-start;gap:14px}body.mos-home .announcement-inner>a:first-child{display:none}body.mos-home .announcement-inner span,body.mos-home .announcement-inner>a:nth-child(2){display:none}body.mos-home .announcement-actions{margin-left:auto;gap:16px}body.mos-home .announcement-actions .announcement-social{display:grid}}
 
 .project-feedback-carousel{overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#a98731 rgba(20,42,63,.1);padding:2px 2px 16px;-webkit-overflow-scrolling:touch}.project-feedback-track{display:flex;gap:16px;width:max-content;min-width:100%}.project-feedback-track .feedback-placeholder{flex:0 0 clamp(280px,34vw,370px);max-width:none;min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:center;scroll-snap-align:start;border:1px solid rgba(16,28,44,.1);border-top:2px solid var(--gold);border-radius:14px;box-shadow:0 12px 30px rgba(16,28,44,.05)}.project-feedback-track .feedback-placeholder p{flex:1;display:flex;align-items:center}.footer-social-links{display:flex;gap:10px;margin-top:20px}.footer-social-links a{width:38px;height:38px;display:grid;place-items:center;border:1px solid rgba(232,185,79,.35);border-radius:50%;color:var(--gold);transition:background .2s,color .2s,transform .2s}.footer-social-links a:hover{background:var(--gold);color:var(--navy);transform:translateY(-2px)}.mos-footer .footer-main{gap:36px;padding-top:58px}.mos-footer .footer-main>div:not(:first-child)>a,.mos-footer .footer-main>div:not(:first-child)>span{line-height:1.7}.mos-footer .footer-bottom{min-height:64px}
+
+/* Mobile-only readability, spacing and hero showcase adjustments. */
+@media(max-width:767px){
+ body.mos-home .mos-nav{display:none!important}
+ body.mos-home .hero-section{height:790px;min-height:740px}
+ body.mos-home:not([id]) .hero-showcase-copy{top:7%;width:calc(100% - 32px)}
+ body.mos-home:not([id]) .hero-showcase-copy h1{font-size:clamp(31px,8.5vw,42px);line-height:1.06;margin:9px 0 14px}
+ body.mos-home:not([id]) .showcase-primary-link{max-width:100%;padding:12px 17px;font-size:12px}
+ body.mos-home:not([id]) .hero-installed-badge{top:2%;left:16px;padding:5px 9px 5px 5px;gap:7px}
+ body.mos-home:not([id]) .hero-service-badge{top:2%;right:16px;left:auto;width:40px;height:40px;padding:3px}
+ body.mos-home:not([id]) .hero-intro-card{top:43%;left:16px;width:calc(100% - 32px);padding:15px 17px;border-radius:14px}
+ body.mos-home:not([id]) .hero-intro-card p{font-size:14px;line-height:1.5}
+ body.mos-home:not([id]) .hero-monitor-card,body.mos-home:not([id]) .hero-energy-card{display:block;top:auto;bottom:3%;width:calc(50% - 24px);min-height:94px;padding:12px 13px;border-radius:13px}
+ body.mos-home:not([id]) .hero-monitor-card{left:16px;right:auto}
+ body.mos-home:not([id]) .hero-energy-card{right:16px;left:auto}
+ body.mos-home:not([id]) .monitor-card-top{font-size:7px}
+ body.mos-home:not([id]) .monitor-reading strong,body.mos-home:not([id]) .hero-energy-card>strong{font-size:14px}
+ body.mos-home:not([id]) .monitor-reading small,body.mos-home:not([id]) .hero-energy-card>small{font-size:8px;line-height:1.35}
+ body.mos-home .section-pad{padding:54px 0}
+ body.mos-home .section-pad .container,body.mos-home .inspection-inner{padding-left:20px;padding-right:20px}
+ body.mos-home .section-heading{gap:13px;margin-bottom:25px}
+ body.mos-home .section-heading h2,body.mos-home .about-section h2{font-size:clamp(29px,8vw,36px);line-height:1.16;overflow-wrap:anywhere}
+ body.mos-home .section-heading>p,body.mos-home .inspection-inner p,body.mos-home .contact-details p{font-size:14px;line-height:1.7}
+ body.mos-home .inspection-cta{padding:54px 0}
+ body.mos-home .inspection-inner{gap:20px}
+ body.mos-home .inspection-inner h2{font-size:clamp(30px,8.5vw,38px);line-height:1.15}
+ body.mos-home .inspection-inner>.btn{max-width:100%;white-space:normal;text-align:center;line-height:1.45;padding:14px 17px}
+ body.mos-home .contact-grid{gap:22px}
+ body.mos-home .contact-details h3{font-size:23px;margin-bottom:10px}
+ body.mos-home .contact-details>a,body.mos-home .contact-details>span{font-size:13px;line-height:1.6;overflow-wrap:anywhere}
+ body.mos-home .enquiry-form{padding:20px 17px}
+ body.mos-home .enquiry-form label{font-size:12px;line-height:1.5}
+ body.mos-home .enquiry-form input,body.mos-home .enquiry-form select,body.mos-home .enquiry-form textarea{font-size:14px;padding:12px}
+}
