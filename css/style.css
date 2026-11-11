@@ -398,7 +398,7 @@
 
 /* Mobile-only readability, spacing and hero showcase adjustments. */
 @media(max-width:767px){
- body.mos-home .mos-nav{display:none!important}
+ body.mos-home .announcement-bar{display:none!important}
  body.mos-home .hero-section{height:790px;min-height:740px}
  body.mos-home:not([id]) .hero-showcase-copy{top:7%;width:calc(100% - 32px)}
  body.mos-home:not([id]) .hero-showcase-copy h1{font-size:clamp(31px,8.5vw,42px);line-height:1.06;margin:9px 0 14px}
