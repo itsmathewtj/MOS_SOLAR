@@ -45,7 +45,7 @@
     if(calculator){calculator.addEventListener('input',updateEstimate);calculator.addEventListener('submit',function(event){event.preventDefault();updateEstimate();});updateEstimate();}
 
     // Accessible FAQ accordion.
-    document.querySelectorAll('.faq-question').forEach(function(button){button.addEventListener('click',function(){var item=button.closest('.faq-item');var open=item.classList.toggle('open');button.setAttribute('aria-expanded',String(open));});});
+    document.querySelectorAll('.faq-question').forEach(function(button){button.addEventListener('click',function(){var item=button.closest('.faq-item');var list=button.closest('.faq-list');var open=!item.classList.contains('open');if(list){list.querySelectorAll('.faq-item.open').forEach(function(openItem){openItem.classList.remove('open');var openButton=openItem.querySelector('.faq-question');if(openButton)openButton.setAttribute('aria-expanded','false');});}if(open){item.classList.add('open');button.setAttribute('aria-expanded','true');}});});
 
     // Enquiry form validates locally and prepares a mailto message; no backend is configured.
     var enquiry=document.getElementById('enquiryForm');

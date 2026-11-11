@@ -45,6 +45,10 @@ body.mos-home:not([id]) .solution-card{border:1px solid rgba(255,255,255,.13);bo
 body.mos-home:not([id]) .solution-card:hover{background:#1b3d55}
 body.mos-home:not([id]) .comparison-grid{gap:16px}
 body.mos-home:not([id]) .comparison-card{padding:34px;background:#fff}
+body.mos-home:not([id]) .testimonial-carousel{overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#a98731 rgba(20,42,63,.1);padding:2px 2px 16px;-webkit-overflow-scrolling:touch}
+body.mos-home:not([id]) .testimonial-grid{display:flex;gap:16px;width:max-content;min-width:100%}
+body.mos-home:not([id]) .testimonial-card{flex:0 0 clamp(280px,34vw,370px);scroll-snap-align:start}
+body.mos-home:not([id]) .testimonial-card blockquote{min-height:100px}
 body.mos-home:not([id]) .comparison-card.comparison-dark{background:#142a3f}
 body.mos-home:not([id]) .process-grid{gap:14px}
 body.mos-home:not([id]) .process-step{position:relative;padding:28px;background:#fff}

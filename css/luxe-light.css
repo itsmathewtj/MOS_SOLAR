@@ -78,6 +78,7 @@ body.mos-home .solutions-cta h2{color:#263544}
 body.mos-home .solutions-cta p{color:#66727b}
 body.mos-home .calculator-hero,.contact-hero,.subsidy-hero,.blog-hero,.detail-hero,.about-hero,.products-hero,.projects-hero,.solutions-hero{color:#fff}
 body.mos-home .project-card:after,body.mos-home .project-preview-card:after{background:linear-gradient(transparent,rgba(20,29,37,.82))}
+body.mos-home .project-card h3{color:#fff!important}
 body.mos-home .back-to-top{box-shadow:0 8px 22px rgba(42,48,52,.14)}
 body.mos-home .faq-question{color:#34424c}
 body.mos-home .faq-answer p{color:#68747d}
@@ -154,11 +155,14 @@ body.mos-home .why-section .feature-card>i{grid-column:1;grid-row:1/3;margin:2px
 body.mos-home .why-section .feature-card h3{grid-column:2;grid-row:1;margin:0 0 7px;color:#283744;font-size:15px}
 body.mos-home .why-section .feature-card p{grid-column:2;grid-row:2;margin:0;color:#68747d;font-size:11px}
 
-body.mos-home .comparison-section{background:#f4f2eb}
-body.mos-home .comparison-grid{gap:0}
-body.mos-home .comparison-card{padding:24px 42px;background:transparent!important;border:0;border-top:1px solid rgba(40,52,61,.17);box-shadow:none!important}
-body.mos-home .comparison-card:first-child{padding-left:0}
-body.mos-home .comparison-card+.comparison-card{border-left:1px solid rgba(40,52,61,.15)}
+body.mos-home .comparison-section{background:#f4f6f3}
+body.mos-home .comparison-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
+body.mos-home .comparison-card,
+body.mos-home .comparison-card:first-child,
+body.mos-home .comparison-card.comparison-dark{display:flex;flex-direction:column;align-items:flex-start;min-width:0;min-height:100%;padding:34px 36px;background:#f4f6f3!important;color:#283744;border:1px solid rgba(20,42,63,.13);border-radius:18px;box-shadow:0 10px 28px rgba(20,42,63,.035)!important}
+body.mos-home .comparison-card+.comparison-card{border-left:1px solid rgba(20,42,63,.13)}
+body.mos-home .comparison-card .comparison-icon{flex:0 0 auto}
+body.mos-home .comparison-card .text-link{margin-top:auto;padding-top:18px;border-bottom:1px solid #c39a36;padding-bottom:12px}
 body.mos-home .comparison-card h3{color:#283744;font-size:22px}
 body.mos-home .comparison-card p,body.mos-home .comparison-card li{color:#68747d;font-size:12px}
 body.mos-home .comparison-card ul{padding-left:0;list-style:none}
@@ -184,7 +188,7 @@ body.mos-home .testimonial-card{padding:22px 0;background:transparent;border:0;b
 body.mos-home .testimonial-card blockquote{font:500 15px/1.75 'Manrope',sans-serif;color:#3e4a54}
 
 @media(max-width:991px){body.mos-home #solutions .solution-grid,body.mos-home .why-section .feature-grid,body.mos-home .process-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}}
-@media(max-width:767px){body.mos-home #solutions .solution-grid,body.mos-home .why-section .feature-grid,body.mos-home .process-grid{grid-template-columns:1fr;gap:0 20px}body.mos-home .comparison-card,body.mos-home .comparison-card:first-child{padding:23px 0}body.mos-home .comparison-card+.comparison-card{border-left:0}body.mos-home .process-step>i{grid-row:2}body.mos-home .process-step p{grid-row:2;padding-top:3px}}
+@media(max-width:767px){body.mos-home #solutions .solution-grid,body.mos-home .why-section .feature-grid,body.mos-home .process-grid{grid-template-columns:1fr;gap:0 20px}body.mos-home .comparison-grid{grid-template-columns:1fr;gap:14px}body.mos-home .comparison-card,body.mos-home .comparison-card:first-child,body.mos-home .comparison-card.comparison-dark{min-height:0;padding:25px 23px}body.mos-home .comparison-card+.comparison-card{border-left:1px solid rgba(20,42,63,.13)}body.mos-home .process-step>i{grid-row:2}body.mos-home .process-step p{grid-row:2;padding-top:3px}}
 
 /* Keep the premium navigation pinned below the scrolling announcement bar. */
 body.mos-home .mos-nav.sticky-top{position:sticky;top:0;z-index:1030;background:rgba(251,250,247,.84);backdrop-filter:blur(18px) saturate(145%);-webkit-backdrop-filter:blur(18px) saturate(145%);box-shadow:0 8px 28px rgba(34,44,53,.08)}
