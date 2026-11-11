@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://itsmathewtj.github.io/MOS_SOLAR/sitemap.xml
+Sitemap: https://itsmathewtj.github.io/MOS_SOLAR/

@@ -406,7 +406,7 @@
  body.mos-home:not([id]) .showcase-primary-link{max-width:100%;padding:12px 17px;font-size:12px}
  body.mos-home:not([id]) .hero-installed-badge{top:2%;left:16px;padding:5px 9px 5px 5px;gap:7px}
  body.mos-home:not([id]) .hero-service-badge{top:2%;right:16px;left:auto;width:40px;height:40px;padding:3px}
- body.mos-home:not([id]) .hero-intro-card{top:43%;left:16px;width:calc(100% - 32px);padding:15px 17px;border-radius:14px}
+ body.mos-home:not([id]) .hero-intro-card{top:auto;bottom:6%;left:16px;width:calc(100% - 32px);padding:15px 17px;border-radius:14px}
  body.mos-home:not([id]) .hero-intro-card p{font-size:14px;line-height:1.5}
  body.mos-home:not([id]) .hero-monitor-card,body.mos-home:not([id]) .hero-energy-card{display:block;top:auto;bottom:3%;width:calc(50% - 24px);min-height:94px;padding:12px 13px;border-radius:13px}
  body.mos-home:not([id]) .hero-monitor-card{left:16px;right:auto}
@@ -429,4 +429,28 @@
  body.mos-home .enquiry-form{padding:20px 17px}
  body.mos-home .enquiry-form label{font-size:12px;line-height:1.5}
  body.mos-home .enquiry-form input,body.mos-home .enquiry-form select,body.mos-home .enquiry-form textarea{font-size:14px;padding:12px}
+}
+
+/* Keep the primary navigation visible and legible on phones. */
+@media(max-width:767px){
+ body.mos-home .mos-nav{display:block!important;min-height:68px!important}
+ body.mos-home .mos-nav>.container{min-height:68px!important;display:flex;align-items:center;justify-content:space-between}
+ body.mos-home .mos-nav .navbar-brand{display:flex!important;align-items:center;min-height:60px}
+ body.mos-home .mos-nav .mos-brand .brand-logo{display:block!important;width:auto;height:52px;max-width:125px;object-fit:contain}
+ body.mos-home .mos-nav .mos-brand .brand-logo{flex:0 0 auto;opacity:1!important;visibility:visible!important;object-position:left center}
+ body.mos-home .mos-nav .navbar-toggler{display:block!important;margin-left:auto;padding:7px 9px;border:1px solid rgba(40,52,61,.3);border-radius:6px}
+ body.mos-home .mos-nav .navbar-toggler{width:48px;height:44px;padding:0;border:1px solid rgba(150,112,30,.48);border-radius:13px;background:linear-gradient(145deg,#f6d66c,#e9b942);box-shadow:0 5px 14px rgba(143,105,28,.2);display:grid!important;place-items:center;transition:transform .25s ease,box-shadow .25s ease,background .25s ease}
+ body.mos-home .mos-nav .navbar-toggler:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(143,105,28,.28)}
+ body.mos-home .mos-nav .navbar-toggler:active{transform:scale(.94)}
+ body.mos-home .mos-nav .navbar-toggler:focus-visible{outline:3px solid rgba(40,55,68,.35);outline-offset:3px}
+ body.mos-home .mos-nav .navbar-toggler-icon{position:relative;display:block;width:21px;height:18px;background:none!important;filter:none!important;transition:transform .3s cubic-bezier(.2,.8,.2,1)}
+ body.mos-home .mos-nav .navbar-toggler-icon:before,body.mos-home .mos-nav .navbar-toggler-icon:after{content:"";position:absolute;left:1px;width:19px;height:2px;border-radius:2px;background:#253544;transition:top .28s ease,transform .28s ease,background .28s ease,box-shadow .2s ease}
+ body.mos-home .mos-nav .navbar-toggler-icon:before{top:4px;box-shadow:0 5px 0 #253544,0 10px 0 #253544}
+ body.mos-home .mos-nav .navbar-toggler-icon:after{top:9px;background:transparent}
+ body.mos-home .mos-nav .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{transform:rotate(180deg)}
+ body.mos-home .mos-nav .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before{top:9px;background:#253544;box-shadow:none;transform:rotate(45deg)}
+ body.mos-home .mos-nav .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after{top:9px;background:#253544;transform:rotate(-45deg)}
+ body.mos-home .mos-nav .navbar-collapse{width:100%;flex-basis:100%;background:rgba(251,250,247,.98)}
+ body.mos-home .mos-nav .navbar-nav{align-items:stretch!important;padding:8px 0}
+ body.mos-home .mos-nav .nav-link{padding:10px 2px!important}
 }

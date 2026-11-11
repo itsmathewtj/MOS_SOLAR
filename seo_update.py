@@ -87,7 +87,7 @@ def schema(rel, title, description):
     url = canonical(rel)
     rel_name = rel.relative_to(ROOT).as_posix()
     graph = [
-      {'@type':'Organization','@id':BASE+'#organization','name':'MOS Solar','alternateName':'MOS Systems & Controls','url':BASE,'logo':BASE+'img/logo.png','email':'info@mossolar.in','telephone':'+91 96560 03990','sameAs':['https://www.instagram.com/mossolar/']},
+      {'@type':'Organization','@id':BASE+'#organization','name':'MOS Solar','alternateName':'MOS Systems & Controls','url':BASE,'logo':BASE+'img/mos-solar-logo.svg','email':'info@mossolar.in','telephone':'+91 96560 03990','sameAs':['https://www.instagram.com/mossolar/']},
       {'@type':'LocalBusiness','@id':BASE+'#localbusiness','name':'MOS Solar','url':BASE,'image':BASE+'img/1.png','telephone':'+91 96560 03990','email':'info@mossolar.in','address':{'@type':'PostalAddress','streetAddress':'B 1305, JLN Stadium, Kaloor','addressLocality':'Ernakulam','addressRegion':'Kerala','postalCode':'682017','addressCountry':'IN'},'areaServed':{'@type':'AdministrativeArea','name':'Kerala'}},
       {'@type':'WebSite','@id':BASE+'#website','url':BASE,'name':'MOS Solar','publisher':{'@id':BASE+'#organization'},'inLanguage':'en-IN'},
       {'@type':'WebPage','@id':url+'#webpage','url':url,'name':title,'description':description,'isPartOf':{'@id':BASE+'#website'},'about':{'@id':BASE+'#organization'},'inLanguage':'en-IN'}
