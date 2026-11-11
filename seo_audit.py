@@ -21,7 +21,7 @@ class Scan(HTMLParser):
  def handle_data(self,data):
   if self.in_json:self.json_buf.append(data)
 for p in pages:
- t=p.read_text(encoding='utf-8-sig'); rel=p.relative_to(root).as_posix(); title=re.search(r'<title>(.*?)</title>',t,re.S|re.I); desc=re.search(r'<meta name="description" content="([^"]*)"',t,re.I); canon=re.search(r'<link rel="canonical" href="([^"]+)"',t,re.I)
+ t=p.read_text(encoding='utf-8-sig'); rel=p.relative_to(root).as_posix(); title=re.search(r'<title>(.*?)</title>',t,re.S|re.I); desc=re.search(r'<meta\s+name="description"\s+content="([^"]*)"',t,re.S|re.I); canon=re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"',t,re.S|re.I)
  if not title or not desc or not canon: problems.append(f'Metadata missing: {rel}');continue
  title=html.unescape(title.group(1));description=html.unescape(desc.group(1));titles.setdefault(title,[]).append(rel)
  s=Scan();s.feed(t)
